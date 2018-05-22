@@ -111,7 +111,7 @@ typedef CRITICAL_SECTION    TMutex;
 /////////////////////////////////////////////
 // function remapping                      //
 /////////////////////////////////////////////
-#define snprintf    _snprintf
+//#define snprintf    _snprintf
 
 #endif // WIN32
 
