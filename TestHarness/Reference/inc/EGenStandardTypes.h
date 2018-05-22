@@ -98,7 +98,7 @@
 #define INT64_CONST(x)  x ## I64
 #define UINT64_CONST(x) x ## uI64
 
-#define snprintf    _snprintf
+//#define snprintf    _snprintf
 
 #endif // WIN32
 

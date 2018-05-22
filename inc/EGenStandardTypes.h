@@ -71,7 +71,7 @@ typedef unsigned int UINT;
 // WIN32 is predefined by the compiler             //
 // for both 32-bit and 64-bit Windows platforms.   //
 /////////////////////////////////////////////////////
-#ifdef WIN32
+#ifdef _WIN32
 #include <windows.h>    // this brings in the necessary definitions.
 //
 // Mapping for Windows data types.
