@@ -101,7 +101,7 @@ void PrintEGenVersion()
 //
 void GetEGenVersionUpdateTimestamp(char* szOutput, INT32 iOutputBufferLen)
 {
-    strncpy(szOutput, __DATE__" "__TIME__, iOutputBufferLen);
+    strncpy(szOutput, (__DATE__ + std::string(" ") + __TIME__).c_str(), iOutputBufferLen);
 }
 
 }

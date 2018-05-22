@@ -295,7 +295,7 @@ CDateTime::CDateTime(TPCE::TIMESTAMP_STRUCT *ts)
 // set to current local time
 void CDateTime::SetToCurrent(void)
 {
-#ifdef WIN32
+#ifdef _WIN32
 //Windows-specific code to get the current time with 1ms resolution
     SYSTEMTIME  time;
 

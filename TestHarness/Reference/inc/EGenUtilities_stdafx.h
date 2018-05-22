@@ -41,7 +41,7 @@
 
 #include <stddef.h>
 #include <stdio.h>
-#ifdef WIN32        //for Windows platform
+#ifdef _WIN32        //for Windows platform
 #include <windows.h>
 #else
 #include <errno.h>  //for Unix
