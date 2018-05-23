@@ -81,7 +81,7 @@
 *                       partition. 100-iParititionPercent percent of the C_IDs
 *                       will be generated across the full range of C_IDs.
 *
-*                       Paritioning Example.
+*                       Partitioning Example.
 *                       Based on a load unit size of 1000, assume the following
 *                       valid inputs.
 *                       - iCustomerCount =              5000

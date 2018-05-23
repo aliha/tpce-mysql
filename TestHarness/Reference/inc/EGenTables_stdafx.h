@@ -64,7 +64,7 @@ namespace TPCE
 static const TIdent iDefaultStartFromCustomer = 1;
 
 // Minimum number of customers in a database.
-// Broker-Volume transations requires 40 broker names as input,
+// Broker-Volume transactions requires 40 broker names as input,
 // which translates into minimum 4000 customers in a database.
 //
 const UINT          iDefaultCustomerCount = 5000;

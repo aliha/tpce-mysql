@@ -36,7 +36,7 @@
 
 /******************************************************************************
 *   Description:        This file contains mappings from platform specific
-*                       data types to platform indepenent data types used
+*                       data types to platform independent data types used
 *                       throughout EGen.
 ******************************************************************************/
 
