@@ -11,7 +11,7 @@
 
 # Platform specific defines
 #CXX=
-#CCFLAGS=
+CCFLAGS=-D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS  -std=c++11
 #LDFLAGS=
 #AR=
 #ARFLAGS=

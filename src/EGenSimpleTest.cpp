@@ -152,10 +152,10 @@ void ParseCommandLine( int argc, char *argv[] )
 		strncpy(szDBPass, vp, sizeof(szDBName));
 		break;
 	    case 'c':
-		sscanf(vp, "%"PRId64, &iConfiguredCustomerCount);
+		sscanf(vp, "%" PRId64 , &iConfiguredCustomerCount);
 		break;
 	    case 'a':
-		sscanf(vp, "%"PRId64, &iActiveCustomerCount);
+		sscanf(vp, "%" PRId64 , &iActiveCustomerCount);
 		break;
 	    case 'f':
 		sscanf(vp, "%d", &iScaleFactor);

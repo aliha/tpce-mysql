@@ -72,11 +72,11 @@ template<typename T>
 class Thread : public ThreadBase
 {
     private:
-        std::auto_ptr<T> obj_;
+        std::unique_ptr<T> obj_;
         TThread tid_;
     public:
-        Thread(std::auto_ptr<T> throbj)
-        : obj_(throbj)
+        Thread(std::unique_ptr<T> throbj)
+        : obj_(std::move(throbj))
         , tid_()
         {
         }
