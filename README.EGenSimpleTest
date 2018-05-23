@@ -11,7 +11,7 @@ Attention: ODBC versions are not tested at all. And aren't supported now.
 
 - unixODBC and the ODBC driver for your rdbms
     * Even if you use MySQL C API only, unixODBC headers are needed.
-
+  > sudo yum install unixODBC*
 
 <brief example>
 
@@ -27,6 +27,7 @@ Attention: ODBC versions are not tested at all. And aren't supported now.
   (default is for MySQL C API)
 
 4.
+  > mkdir ../obj; mkdir ../bin; mkdir ../lib; mkdir ../flat_in; mkdir ../flat_out
   > make
   > cd ..
 
